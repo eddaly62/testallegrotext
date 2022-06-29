@@ -123,11 +123,11 @@ int main()  {
 
         // blinking
         if (toggle) {
-            al_draw_text(font, WHITE, BX, BY, 0, TEST_TEXT);
+            al_draw_text(font, WHITE, BX, BY, 0, BLINKING_TEXT);
             toggle=0;
         }
         else {
-            al_draw_text(font, BLACK, BX, BY, 0, TEST_TEXT);
+            al_draw_text(font, BLACK, BX, BY, 0, BLINKING_TEXT);
             toggle=1;
         }
         
